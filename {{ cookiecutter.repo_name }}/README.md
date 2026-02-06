@@ -27,20 +27,16 @@
 │                         `1.0-jqp-initial-data-exploration`.
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         {{ cookiecutter.module_name }} and configuration for tools like black
+│                         {{ cookiecutter.module_name }} and configuration for tools like ruff
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
 │
 └── src
-    └── {{ cookiecutter.module_name }}   <- Source code for use in this project.
+    └── {{cookiecutter.module_name}}   <- Source code for use in this project.
         │
         ├── __init__.py             <- Makes {{ cookiecutter.module_name }} a Python module
         │
